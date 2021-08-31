@@ -7,6 +7,21 @@ To succeed in our Mars Mission, we need to:
 - create ReactJS application
 - fetch the data from public NASA api
 - display the latest available photo of Mars.
+
+### Requirements
+
+- latest NodeJS LT version (>= 10.16)
+- latest package manager, such as `yarn` or `npm`
+- your choice of code editor (Visual Studio Code is highly recommended)
+
+### Assumptions
+
+For this mission, we will assume that you will have the following knowledge:
+
+- basic JavaScript
+- basic use of terminal/command prompt
+- a few standard programming concepts such as states, variables, functions
+
 ## Step 1: create a ReactJS application by using create-react-app template
 
 To create a project called mars-mission, run this command in your terminal:
@@ -60,13 +75,14 @@ useEffect(() => {
     })
   }, []);
 ```
+
 If you add
 
 `console.log('data', data);`
 
 in your App function before the return statement, you'll see that `data` now is an array of items containing information about the photos made on 2021-8-30
 
-## Step 3: display the latest photo from Mars
+## Step 4: display the latest photo from Mars
 
 In App.js, before the return statement, define a variable to get a url of the most recent photo:
 
@@ -79,6 +95,7 @@ Inside the return statement, delete everything and instead add the below code:
 ```
 <img src={mostRecentPhotoUrl} />
 ```
+
 If you check your localhost now, you may see a beautiful Mars landscape. If you see an error instead, here is the result code of App.js for you to compare with what you've got:
 
 ```
