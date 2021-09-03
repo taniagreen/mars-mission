@@ -52,7 +52,7 @@ Inside the App function, add the below code to it:
 
 ```
 useEffect(() => {
-    axios.get(`https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2021-8-30&api_key=DEMO_KEY`)
+    axios.get(`https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2021-9-01&api_key=DEMO_KEY`)
     .then(response => {
       console.log(response);
       const marsData = response.data.photos;
@@ -64,7 +64,7 @@ If you add
 
 `console.log('data', data);`
 
-in your App function before the return statement and open `Console` tab in DevTools (F12 or right mouse click -> Inspect -> Console tab)  you'll see that `data` now is an array of items containing information about the photos made on 2021-8-30
+in your App function before the return statement and open `Console` tab in DevTools (F12 or right mouse click -> Inspect -> Console tab)  you'll see that `data` now is an array of items containing information about the photos made on 2021-9-02
 
 ## Step 3: display the latest photo from Mars
 
