@@ -108,7 +108,7 @@ function App() {
 export default App;
 ```
 
-## Congrats, Mars Mission is complete!
+Congrats, Mars Mission is complete!
 
 ## Extra challenges
 
@@ -119,3 +119,8 @@ Add a child component called Picture that gets the data from App component throu
 ### Show more data
 
 Add a section to the Picture component to display the rest of the data (date, rover's name etc.)
+
+## Useful links
+
+[ReactJS official documentation](https://reactjs.org/)
+[create-react-app official documentation](https://create-react-app.dev/)
