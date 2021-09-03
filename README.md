@@ -123,4 +123,5 @@ Add a section to the Picture component to display the rest of the data (date, ro
 ## Useful links
 
 [ReactJS official documentation](https://reactjs.org/)
+
 [create-react-app official documentation](https://create-react-app.dev/)
