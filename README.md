@@ -15,13 +15,13 @@ To create a project called mars-mission, run this command in your terminal:
 
 Navigate to the application’s root folder and run
 
-`yarn install`
+`npm install` or `yarn install`
 
 to install all the packages.
 
 Run
 
-`yarn start`
+`npm start` or `yarn start`
 
 to start your project in the localhost. When you open `http://localhost:3000/` now you can see a default page with animated image.
 
@@ -39,7 +39,7 @@ Inside the App function, define the state:
 
 Install `axios` by running
 
-`yarn add axios`
+`npm install axios` or `yarn add axios`
 
 in the root application's folder.
 
@@ -64,7 +64,7 @@ If you add
 
 `console.log('data', data);`
 
-in your App function before the return statement, you'll see that `data` now is an array of items containing information about the photos made on 2021-8-30
+in your App function before the return statement and open `Console` tab in DevTools (F12 or right mouse click -> Inspect -> Console tab)  you'll see that `data` now is an array of items containing information about the photos made on 2021-8-30
 
 ## Step 3: display the latest photo from Mars
 
@@ -109,3 +109,13 @@ export default App;
 ```
 
 ## Congrats, Mars Mission is complete!
+
+## Extra challenges
+
+### Create a child component
+
+Add a child component called Picture that gets the data from App component through the props and returns the picture
+
+### Show more data
+
+Add a section to the Picture component to display the rest of the data (date, rover's name etc.)
